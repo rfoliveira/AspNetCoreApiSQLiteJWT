@@ -1,0 +1,10 @@
+﻿create table if not exists Users (
+	UserID text not null primary key,
+	AccessKey text not null
+);
+
+insert into Users (UserID, AccessKey) values ('usuario01', 'U5HRZL2sATaffKeaqCxKfAshNtnrKyq6');
+insert into Users (UserID, AccessKey) values ('usuario02', 'KbjXc7RvffwYruU2U6nUCszvYGFjpSdf');
+insert into Users (UserID, AccessKey) values ('usuario03', 'Jbza3nRB3gKZ5U4Bu9VC6vQFXuY84cUV');
+insert into Users (UserID, AccessKey) values ('usuario04', 'dqCF8nbtw9xdvAfnWRCnJgeRpy2sWcp7');
+insert into Users (UserID, AccessKey) values ('usuario05', 'eEMWC3GSTU9UJwNmjQTswcXsxBbvk5wz');
